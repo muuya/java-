@@ -5,3 +5,87 @@
 4.好的电脑
 
 结论验证法：笔记记录重点结论
+
+常用windows的DOS命令
+    win+r:打开运行窗口
+    在运行窗口文本框中输入cmd,回车
+    
+    mkdir abc:创建目录abc
+    复制：左键选中，右键单击保存到剪切板，再单击复制完成
+    
+    切换盘符   c:    d: e:
+    切换目录  cd(change directory)
+    cd 路径
+        相对路径
+            不以盘符开始，相对于当前所在位置而言
+        绝对路径
+            路径起点是盘符的
+    cls清屏
+    dir查看当前目录
+    exit退出DOS命令窗口
+    
+    cd ..回到上级目录（相对路径）
+    cd \回到根目录
+    cd .回到当前目录
+    
+    del *.class 模糊匹配，可以批量删除
+    rd    删除文件夹
+    
+    IP地址：计算机在同一网络中的唯一标识
+    ipconfig查看IP地址的配置信息
+    ipconfig /all 查看详细配置，其中物理地址叫MAC地址，具有全球唯一性
+    
+    ping IP地址
+    ping www.baidu.com -t持续ping
+    ctrl + c可以终止执行在执行的命令
+    
+常用组合键   ctrl+
+    复制  c
+    粘贴  v
+    剪切  x
+    保存  s
+    
+    撤销  z
+    重做  y
+    
+    回到行首(无ctrl)    home
+    回到行尾(无ctrl)    end
+    
+    回到文章首   home
+    回到文章尾   end
+    
+    选中一个单词  ctrl + shift + 右箭头或者左箭头
+    选中一行    鼠标双击    shift + home/end
+    选中一个单词  鼠标三击
+    
+    全选  a
+    查找  f
+    
+javase
+    java底层是C++实现的
+    JDK(Java开发工具箱，是最根本的一个环境)
+    SE(标准版，基础语法+基础库)
+    EE(企业版，为企业提供解决方案)
+    ME(微型版，为微型设备做嵌入式开发)
+    
+    JVM（是用c++写好的一个虚拟电脑）:java通过java虚拟机操作内存
+    
+    cpu:处理器
+    内存：临时存储
+    硬盘：长期存储
+    主板：是一个载体，cpu 内存条 硬盘都在主板上，各部分有线连起来
+    
+    java有内存自动回收机制（GC）由JVM负责调度
+    
+    java完全/完美支持多线程并发
+    
+    可移植性/跨平台：java实际是在JVM上运行，所以可以跨平台，安装JDK的时候自动安装JVM,JDK有windows版，mac版
+    JDK
+    JRE(java运行环境)
+    JVM
+    JDK>JRE>JVM     JVM不能独立安装
+    
+    编译阶段（javac命令）和运行阶段（java命令）可以在不同os上
+    .java是源文件
+    .class是字节码文件（不是二进制文件）
+    
