@@ -89,3 +89,21 @@ javase
     .java是源文件
     .class是字节码文件（不是二进制文件）
     
+    javac 源文件路径，如 javac C:\Users\60313\Desktop\life\HelloWorld.java
+    把文件直接拖进DOS命令窗即可
+    java 类名(不能是路径)  如java HelloWorld
+    
+    java 环境变量：classpath(给类加载器指路，隶属于java）        java_home
+    
+    classloader(类加载器)默认从当前路径加载
+    //单行注释
+    /*
+    多行注释
+    */
+    /**
+    *
+    *javadoc注释
+    *
+    */
+    
+    类体  main方法
