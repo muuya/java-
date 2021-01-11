@@ -153,4 +153,29 @@ javase
         十六进制：0x10   16
         二进制：0b10    2
         long a=2147483648 L ;
+    运算符：
+        算术运算符: + -* / %
+        关系运算符: > < 
+        逻辑运算符： & | ！ && ||
+        赋值运算符： =
+        三目运算符：    ？  ：
+        字符串连接运算符： +
+    怎么接受用户键盘输入
+        java.util.Scanner s=new java.util.Scanner(System.in);
+        int i=s.nextInt()
+        String str= s.next();
+    
+    控制语句：
+        选择语句：
+            if
+            switch
+        循环语句:
+            for
+            while
+            do...while...
+        转向语句
+            break
+            continue
+            return
+        
         
